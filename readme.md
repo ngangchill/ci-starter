@@ -1,6 +1,6 @@
 # CI-Starter
 
-This is my starter pack for CodeIgniter project. This pack using 2.2.0 version of CodeIgniter. But I added some tools for quick usage.
+This is my starter pack for CodeIgniter project. This pack using 2.2.1 version of CodeIgniter. But I added some tools for quick usage.
 
 * Composer
 * Laravel/Blade Template Engine
