@@ -1,0 +1,14 @@
+<?php namespace App\Console;
+
+include __DIR__."/vendor/autoload.php";
+
+use Symfony\Component\Console\Application;
+use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Input\InputArgument;
+use Symfony\Component\Console\Input\InputOption;
+use Symfony\Component\Console\Output\OutputInterface;
+
+$console = new Application();
+$console->add(new \Ozziest\Maintenance\Up('app/cache'));
+$console->add(new \Ozziest\Maintenance\Down('app/cache'));
+$console->run(); 

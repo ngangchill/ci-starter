@@ -1,0 +1,29 @@
+{
+    "name": "ozziest/ci-starter",
+    "description": "My CodeIgniter starter pack.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Özgür Adem Işıklı",
+            "email": "i.ozguradem@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "app/facades",
+            "app/console"
+        ],
+        "psr-0": {
+            "App\\": "app"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "rogeriopradoj/codeigniter": "2.2.1-rc.2",
+        "ahir/facades": "1.*",
+        "ahir/environment": "1.*",
+        "philo/laravel-blade": "2.*",
+        "symfony/console": "2.6.*",
+        "ozziest/maintenance": "1.*"
+    }
+}
