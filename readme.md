@@ -71,6 +71,7 @@ Console has two command for maintenance mode;
 $ php console down 
 $ php console up
 ```
+You can see more information about console; [Symfony/Console](http://symfony.com/doc/current/components/console/introduction.html)
 
 ### Facades 
 
