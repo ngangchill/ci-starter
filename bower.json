@@ -1,0 +1,17 @@
+{
+  "name": "ci-starter",
+  "version": "1.0.0",
+  "homepage": "https://github.com/ozziest/ci-starter",
+  "authors": [
+    "Özgür Adem Işıklı <i.ozguradem@gmail.com>"
+  ],
+  "description": "CodeIgniter Starter Package",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

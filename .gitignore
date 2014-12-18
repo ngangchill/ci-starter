@@ -7,3 +7,5 @@
 .env.*
 .DS_Store
 vendor
+bower_components
+node_modules

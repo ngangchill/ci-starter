@@ -7,6 +7,8 @@ This is my starter pack for CodeIgniter project. This pack using 2.2.1 version o
 * Enviroment Manager
 * Symfony/Console
 * Facades
+* Bower.io 
+* Gulp
 
 ## Installation
 
@@ -14,6 +16,8 @@ This is my starter pack for CodeIgniter project. This pack using 2.2.1 version o
 $ git clone https://github.com/ozziest/ci-starter.git
 $ cd ci-starter
 $ composer update
+$ npm update 
+$ bower update
 $ chmod -R 777 app/cache 
 $ chmod -R 777 app/logs
 ```
