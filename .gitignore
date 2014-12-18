@@ -1,7 +1,5 @@
-*/config/development
-*/logs/log-*.php
-*/logs/!index.html
-cache/*
+app/logs/*
+app/cache/*
 .env.*
 .DS_Store
 vendor
