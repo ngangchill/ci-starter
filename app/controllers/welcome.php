@@ -2,15 +2,15 @@
 
 class Welcome extends CI_Controller {
 
-	/**
-	 * Index method 
-	 *
-	 * @return View
-	 */
-	public function index()
-	{
-		View::make('welcome_message');
-	}
+    /**
+     * Index method 
+     *
+     * @return View
+     */
+    public function index()
+    {
+        View::make('welcome_message', ['title' => 'Welcome to CI-Starter!']);
+    }
 
 }
 
