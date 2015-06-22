@@ -26,6 +26,10 @@ class View {
      */
     public function make($file, $arguments = array())
     {
+        $ci =& get_instance();
+        $ci->benchmark->mark('code_end');
+        $arguments['elapsed_time'] = $ci->benchmark
+            ->elapsed_time('total_execution_time_start', 'code_end');
         echo $this->engine->view()->make($file, $arguments);
     }
 
